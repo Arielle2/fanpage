@@ -125,4 +125,4 @@ margin: auto; /* Pour centrer notre page */
 margin-top: 10px; /* Pour éviter de coller avec le haut de la fenêtre du navigateur.  */
 margin-bottom: 10px;    /* aussi pour le bas du navigateur */
 }
-h2,h3 {text-decoration:underline}
+h2, h3 {text-decoration:underline}
