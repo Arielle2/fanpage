@@ -118,3 +118,10 @@ p.refrain, p.couplet {
   margin-right: auto;
   width: 20em
 }
+
+body
+{
+margin: auto; /* Pour centrer notre page */
+margin-top: 10px; /* Pour éviter de coller avec le haut de la fenêtre du navigateur.  */
+margin-bottom: 10px;    /* aussi pour le bas du navigateur */
+}
