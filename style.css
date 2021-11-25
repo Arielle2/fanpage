@@ -60,7 +60,7 @@ html {
 }
 @media screen and (max-width: 400px) {
   body {
-      color: blue;
+      color: rgb(0, 0, 0);
   }
 }
 * {
@@ -112,4 +112,9 @@ nav a:hover {
 
 article {
   margin-bottom: 1em;
+}
+p.refrain, p.couplet {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em
 }
