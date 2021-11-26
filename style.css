@@ -126,3 +126,20 @@ margin-top: 10px; /* Pour éviter de coller avec le haut de la fenêtre du navig
 margin-bottom: 10px;    /* aussi pour le bas du navigateur */
 }
 h2, h3 {text-decoration:underline}
+
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 400%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
